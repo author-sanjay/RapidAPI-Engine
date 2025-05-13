@@ -1,0 +1,42 @@
+{
+    "models": [
+        {
+            "User": {
+                "name": {"type":"string","optional":false},
+                "email": {
+                    "type": "string",
+                    "optional": false
+                },
+                "age": {
+                    "type": "number",
+                    "optional": true
+                },
+                "isActive": {
+                    "type": "boolean",
+                    "optional": false
+                }
+            }
+        }
+    ],
+    "api": {
+        "User": {
+            "getUser": {
+                "type": "POST",
+                "query": [
+                    {
+                        "userId": "string"
+                    }
+                ],
+                "body": {}
+            },
+            "createUser": {
+                "type": "POST",
+                "query": [],
+                "body": {
+                    "name": "string",
+                    "email": "string"
+                }
+            }
+        }
+    }
+}
