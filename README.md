@@ -1,5 +1,5 @@
-# 🔧 Instant Backend Generator (Auto CRUD API Builder)
-
+# 🔧 RapidAPI Engine (Auto CRUD API Builder)
+Highlights performance and automation, great for tech impact.
 This project generates a complete Express.js backend (with Prisma ORM) from a simple JSON schema.
 
 **Give it a model structure, and it gives you:**
